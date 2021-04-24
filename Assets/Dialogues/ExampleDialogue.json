@@ -1,0 +1,57 @@
+{
+    "parts": [
+       {
+           "ID":"START",
+           "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+           "responses": [
+               {
+                   "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, soris nisi ut aliquip ex ea commodo consequat.",
+                   "ID":"part1"
+                },
+                {
+                    "text": "Lorem ipsum dolor sit amet, consectetur adi minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "ID":"part2"
+                 }, {
+                    "text": "Lorem ipsum doload minim veniam, qui ex ea commodo consequat.",
+                    "ID":"part2"
+                 }, {
+                    "text": "Loreet, consectetur ad ea commodo consequat.",
+                    "ID":"part3"
+                 }
+           ]
+       },
+       {
+        "ID":"part1",
+        "text":"Example text 2",
+        "responses": [
+            {
+                "text": "response1",
+                "ID":"part2"
+             },
+             {
+                 "text": "response2",
+                 "ID":"part2"
+              }, {
+                 "text": "response3",
+                 "ID":"part2"
+              }, {
+                 "text": "response3",
+                 "ID":"part3"
+              }
+        ]
+    },       {
+        "ID":"part2",
+        "text":"Example text 2",
+        "nextId":"part4"
+    },
+    {
+        "ID":"part3",
+        "text":"Example text 3",
+        "nextId":"part4"
+    },  
+    {
+        "ID":"part4",
+        "text":"Example text 4"
+    }
+    ]
+}

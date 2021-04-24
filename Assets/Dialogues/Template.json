@@ -1,0 +1,37 @@
+{
+    "parts": [
+       {
+           "ID":"START",
+           "text":"",
+           "nextId":"",
+           "responses": [
+               {
+                   "text": "",
+                   "ID":""
+                },
+                {
+                    "text": "",
+                    "ID":""
+                 }
+           ]
+       },
+       {
+        "ID":"",
+        "text":"",
+        "nextId":"",
+        "responses": [
+            {
+                "text": "",
+                "ID":""
+             },
+             {
+                 "text": "",
+                 "ID":""
+              },
+              {
+                  "text": "",
+                  "ID":""
+               }
+        ]
+    }]
+}
